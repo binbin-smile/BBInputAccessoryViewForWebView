@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "BBInputAccessoryViewForWebView"
   s.version      = "0.0.1"
-  s.summary      = "UiWebView 自定义 BBInputAccessoryViewForWebView."
+s.summary      = "UiWebView自定义InputAccessoryViewForWebView"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+UiWebView自定义InputAccessoryViewForWebView::BBInputAccessoryViewForWebView.
                    DESC
 
   s.homepage     = "https://github.com/LiuYibin/BBInputAccessoryViewForWebView"
@@ -64,7 +65,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+  s.platform     = :ios, "8.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -90,8 +91,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "BBInputAccessoryViewForWebView", "BBInputAccessoryViewForWebView/**/*.{h,m}"
+# s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
